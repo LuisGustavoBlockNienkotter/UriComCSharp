@@ -1,0 +1,76 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "XXX";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>Página Inicial</title>
+</head>
+<body style="background-color: lightblue;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4" align="center">
+                <h2>Turmas</h2>                          
+            </div>
+            <div class="col-md-4" align="center">
+                <h2>Selecionar Aluno</h2>
+            </div>
+            <div class="col-md-4" align="center">
+                <h2>Instituições</h2>
+            </div>
+        </div>
+        <form method="post">
+            <div class="row">
+                <div class="form-group col-md-4 d-flex justify-content-center">
+                    <input type="text" placeholder="Nome da Turma" class="form-control col-md-7" name="nomeTurmaNova" id="nomeTurmaNova">
+                    <input type="submit" value="Adicionar" class="btn btn-primary" name = "criar-turma" id="criar-turma">
+                </div>
+                <div class="form-group col-md-4 d-flex justify-content-center">
+
+                    <input type="submit" value="Enviar" class="btn btn-primary" name="botao-aluno"> 
+                </div>
+                <div class="form-group col-md-4" align="center">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-md-4" align="center">
+                    
+                    <input type="submit" value="Listar" class="btn btn-primary" name = "botao-turma" id="botao-turma">
+                </div>
+            </div>
+        </form>
+        <div class="row">
+            <div class="col-md-4">
+                
+            </div>
+            <div class="col-md-4">
+                
+            </div>
+            <div class="col-md-4">
+                
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-4" align="center"> 
+                
+            </div>
+            <div class="col-md-4" align="center">
+                
+            </div>
+            <div class="col-md-4" align="center"> 
+                
+            </div>
+        </div>
+        <br>
+    </div>
+</body>
+</html>
+
